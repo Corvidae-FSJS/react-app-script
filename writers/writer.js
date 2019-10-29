@@ -1,11 +1,14 @@
 const fs = require('fs');
 
+const write = (path, str) => {
+  fs.writeFileSync(path, str, 'utf8');
+};
 
-fs.writeFileSync(path, string)
-
-write(path, JSON.stringify(obj));
+const writeJSON = (path, obj) => {
+  write(path, JSON.stringify(obj));
+};
 
 module.exports = {
-  writer,
+  write,
   writeJSON
-}
+};
