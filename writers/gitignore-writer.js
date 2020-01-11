@@ -6,7 +6,7 @@ const createGitignore = path => {
   node_modules
 `;
 
-  write(path + '../.gitignore', gitignore);
+  write(path + '/.gitignore', gitignore);
 };
 
 module.exports = createGitignore;
