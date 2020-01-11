@@ -6,7 +6,7 @@ const createIndex = path => {
   #!/usr/bin/env node
 `;
 
-  write(path + '../index.js', index);
+  write(path + '/index.js', index);
 };
 
 module.exports = createIndex;

@@ -32,7 +32,7 @@ const createPackageJSON = path => {
   };
 
 
-  writeJSON(path + './package.json', packageJSON);
+  writeJSON(path + '/package.json', packageJSON);
 };
 
 module.exports = createPackageJSON;
