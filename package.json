@@ -1,0 +1,25 @@
+{
+  "name": "react-app-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "npm test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Corvidae-FSJS/react-app-script.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Corvidae-FSJS/react-app-script/issues"
+  },
+  "homepage": "https://github.com/Corvidae-FSJS/react-app-script#readme",
+  "dependencies": {
+    "eslint": "^6.6.0",
+    "jest": "^24.9.0"
+  }
+}
